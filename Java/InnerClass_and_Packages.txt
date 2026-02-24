@@ -1,0 +1,37 @@
+Inner Class
+Q)What is an inner class?What are the advantages of Inner classes?
+Q)What are the different types of inner classes?
+Q)Can we access all the members of outer class inside a member inner class?
+Q)What are non static inner classes?
+Q)Can we access non-static members of outer class inside a static nested class?
+Q)Can member inner classes have static members in them?
+Q)Can we declare local inner classes as private or protected or public?
+Q)What is the main difference between static and non-static nested classes?
+Q)What are the advantages of Inner classes?
+Q)If you compile a file containing inner class how many .class files are created and 
+what are all of them accessible in usual way?
+Q)How to access the inner class from code within the outer class?
+Q)What is a nested interface ?
+Q)Explain Method Local Inner Classes ?
+Q) How is local inner class different from anonymous class and which one you should chose?
+Q)Can you define constructors for inner classes?
+
+Package
+Q)What does the default access specifier means ?
+Q)Can I import same package/class twice? Will the JVM load the package twice at runtime?
+Q)Do we need to import java.lang.package ?
+Q)What is the difference between public class and class ?
+Q)Name few classes that are part of following package 
+java.io
+java.lang
+java.util
+Q)Does importing a package imports the sub packages as well? E.g. Does importing com.bob.* 
+also import com.bob.code.*?
+Q)what is a jar file?what happens when we add external jar file to eclipse project using build path?
+Q)what is difference between path vs classpath?
+Q)what do you mean by fully qualified classname?is it an alternative  to import?
+Q)How will you use 2 classes having same name in a java program?
+Q)What are the environment variables do we neet to set to run Java?
+Q)What modifiers may be used with a top-level class?
+Q)What is difference between importing "java.applet.Applet" and "java.applet.* "? 
+Q)Can we put interface in a package?Give Examples?

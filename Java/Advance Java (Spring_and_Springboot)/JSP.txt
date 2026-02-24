@@ -1,0 +1,58 @@
+JSP Fundamentals
+What is JSP and how does it differ from Servlets?
+What are the advantages of JSP over Servlets?
+What happens internally when a JSP page is requested?
+How is a JSP translated and compiled by the container?
+
+JSP Lifecycle
+What is the lifecycle of a JSP page?
+Explain jspInit(), _jspService(), and jspDestroy() methods.
+Which method is called for every client request in JSP?
+How is JSP lifecycle different from Servlet lifecycle?
+
+JSP Scripting Elements
+What are scripting elements in JSP?
+What is the difference between declaration, scriptlet, and expression tags?
+Why are scriptlets discouraged in modern JSP development?
+How do JSP expressions differ from scriptlets?
+
+JSP Directives
+What are JSP directives and why are they used?
+Explain page directive and its commonly used attributes.
+What is include directive and how is it different from action include?
+What is taglib directive in JSP?
+
+JSP Implicit Objects
+What are implicit objects in JSP?
+List all JSP implicit objects and explain their uses.
+What is the difference between request and session implicit objects?
+How do pageContext and application objects differ?
+
+JSP Standard Actions
+What are JSP action tags?
+Explain useBean, setProperty, and getProperty actions.
+What is the difference between jsp:include and include directive?
+What is jsp:forward and when is it used?
+
+JSTL and EL Basics
+What is JSTL and why is it preferred over scriptlets?
+What are the different JSTL tag libraries?
+What is Expression Language (EL) in JSP?
+How does EL simplify accessing scoped attributes?
+What is the difference between ${} and <%= %> in JSP?
+
+JSP Scopes and Attributes
+What are different scopes available in JSP?
+Explain page, request, session, and application scopes.
+How are attributes stored and retrieved in different scopes?
+
+Error Handling in JSP
+How do you handle exceptions in JSP pages?
+What is the errorPage and isErrorPage attribute in JSP?
+How can a custom error page be configured for JSP?
+
+JSP vs Servlet and Best Practices
+When should JSP be used instead of Servlets?
+Why is MVC architecture recommended with JSP and Servlets?
+What are the disadvantages of heavy logic inside JSP pages?
+How does JSP support separation of concerns in web applications?

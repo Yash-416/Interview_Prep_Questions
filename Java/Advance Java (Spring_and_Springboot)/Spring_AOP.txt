@@ -1,0 +1,51 @@
+Spring AOP and Transaction Management Fundamentals
+What is Aspect Oriented Programming and why is it used in Spring?
+What problems does AOP solve in enterprise applications?
+What are cross cutting concerns in Spring applications?
+How does Spring AOP work internally using proxies?
+
+AOP Core Concepts
+What is an aspect in Spring AOP?
+What is advice and what are its different types?
+What is a join point in Spring AOP?
+What is a pointcut and how is it defined?
+What is the difference between advice and pointcut?
+What is weaving and when does it occur in Spring AOP?
+
+Types of Advice and Usage
+What is before advice and when should it be used?
+What is after advice and how is it different from after returning?
+What is around advice and how does it control method execution?
+What is the difference between around and before advice?
+How do you apply AOP using annotations in Spring?
+
+Proxy and AOP Internals
+What is the difference between JDK dynamic proxy and CGLIB proxy?
+When does Spring use JDK proxies vs CGLIB proxies?
+What are limitations of proxy based AOP in Spring?
+Why does self invocation not work with Spring AOP?
+
+Transaction Management Fundamentals
+What is transaction management in Spring?
+What are ACID properties of a transaction?
+What problems are solved by declarative transaction management?
+What is the role of PlatformTransactionManager?
+
+@Transactional Annotation and Behavior
+What is @Transactional annotation and where can it be applied?
+What is the default propagation behavior of @Transactional?
+What are different propagation types in Spring transactions?
+What is the difference between REQUIRED and REQUIRES_NEW propagation?
+What are isolation levels in transactions?
+
+Rollback and Exception Handling in Transactions
+When does a transaction rollback automatically in Spring?
+What is the difference between checked and unchecked exceptions in transaction rollback?
+How can you configure rollbackFor and noRollbackFor attributes?
+What happens when a transactional method calls another transactional method?
+
+Transaction and AOP Integration
+How does Spring use AOP to implement transaction management?
+Why does @Transactional not work on private methods?
+Why does self invocation bypass transactional behavior?
+How do proxy boundaries affect transaction management?

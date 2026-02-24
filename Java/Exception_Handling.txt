@@ -1,0 +1,61 @@
+Exception Basics and Fundamentals
+What is an exception?
+What is an exception in Java?
+What are the advantages of exception handling in Java?
+How does exception handling work in Java?
+Explain the exception handling mechanism in Java.
+How are exceptions handled in Java internally?
+
+Exception Hierarchy and Types
+Explain the Java exception hierarchy.
+What is the difference between exception and error in Java?
+What are runtime exceptions in Java? Give examples.
+Give some examples of checked exceptions.
+What is the difference between checked and unchecked exceptions in Java?
+What is the difference between ClassNotFoundException and NoClassDefFoundError in Java?
+What is ClassCastException in Java?
+What is StackOverflowError in Java?
+What is OutOfMemoryError in Java?
+What are chained exceptions in Java?
+
+Exception Handling Keywords and Constructs
+What are the exception handling keywords in Java?
+What is the purpose of try, catch, finally, throw, and throws keywords?
+What is the difference between throw and throws keyword in Java?
+Can we throw an exception manually? If yes, how?
+What is re-throwing an exception in Java?
+How can you catch multiple exceptions?
+Explain Java multi-catch block feature.
+What is try-with-resources statement in Java?
+Explain Java 7 ARM feature.
+
+try, catch, finally Behavior
+Does finally block get executed if either try or catch blocks return the control?
+Can we keep other statements in between try, catch and finally blocks?
+Can we write only try block without catch and finally blocks?
+Can we have an empty catch block?
+What is unreachable catch block error?
+
+Exception Propagation and Method Handling
+What happens when an exception is thrown by the main method?
+What is the use of throws keyword in Java?
+What are the rules to follow when overriding a method that throws an exception?
+How can you handle an exception in a method?
+What are different scenarios causing “Exception in thread main”?
+
+Custom Exceptions and Best Practices
+How do you create customized exceptions in Java?
+How to write a custom exception class?
+What are some exception handling best practices?
+What is the problem with improper exception handling and how can we fix it?
+
+Important Methods of Exception Class
+What are important methods of Java Exception class?
+What is the use of printStackTrace() method?
+What is a stack trace and how does it relate to an exception?
+
+Special Concepts and Miscellaneous
+What is the difference between final, finally and finalize in Java?
+What are chained exceptions and how are they implemented?
+Can you throw any exception inside a lambda expression body?
+What are the benefits of using exceptions over traditional error handling?

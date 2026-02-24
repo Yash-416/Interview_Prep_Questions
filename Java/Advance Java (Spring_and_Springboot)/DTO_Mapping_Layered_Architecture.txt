@@ -1,0 +1,32 @@
+DTO, Mapping and Layered Architecture Concepts
+
+DTO Fundamentals
+What is a DTO and why is it used in enterprise applications?
+What problems does DTO solve in layered architecture?
+What is the difference between Entity and DTO?
+Why should we avoid exposing entity objects directly in APIs?
+
+DTO Mapping Strategies
+What is object mapping and why is it required between layers?
+What is manual mapping and what are its drawbacks?
+What is ModelMapper and how does it work?
+What is MapStruct and how is it different from ModelMapper?
+When should compile time mapping be preferred over runtime mapping?
+
+Layered Architecture and Design Principles
+What is layered architecture in Spring applications?
+What are different layers in a typical Spring Boot application?
+What is the role of Controller, Service, and Repository layers?
+Why should business logic be placed in the service layer?
+What is separation of concerns and why is it important?
+
+Entity Lifecycle and Data Flow
+How does data flow from controller to database in Spring Boot application?
+What transformations happen between DTO, Entity, and database model?
+How do DTOs help in validation and data security?
+
+Best Practices and Design Considerations
+When should DTOs be used and when can entities be used directly?
+What are the disadvantages of excessive DTO usage?
+How does DTO help in API versioning and backward compatibility?
+What is the impact of DTO mapping on performance?

@@ -1,0 +1,118 @@
+Version 1
+
+Hi, my name is Yash Mankumare. I recently completed my BE in Electronics and Telecommunication from Savitribai Phule Pune University, and I am currently pursuing PG-DAC where I have developed a strong foundation in Java, OOPs, Data Structures, Web Technologies, and Database systems.
+I have worked on projects like SafeMind, a mental health platform using ReactJS, Spring Boot, and MySQL with features like JWT-based authentication and role-based access control, and YogaSphere, a role-based web application for managing yoga center operations built with ReactJS, NodeJS, and MySQL.
+Through these projects, I gained hands-on experience in REST API development, authentication mechanisms, and database design while applying strong object-oriented principles.
+Apart from academics, I have actively participated in extracurricular activities — I served as Vice-President of the Electronics & Telecommunication Students Association and led multiple NSS initiatives, which helped me build leadership and teamwork skills. 
+In my free time, I enjoy trekking and swimming, as they help me stay active and improve focus.I am now looking for an entry-level software developer role where I can contribute to backend development and continue growing as a software engineer.
+
+Project 
+
+SafeMind is a secure web-based mental health platform that connects users with verified therapists through online appointment booking and real-time WebRTC video consultations.
+It solves the problem of limited accessibility, privacy concerns, and delayed support in traditional mental health services, especially for remote users.
+The platform allows users to register, book sessions, track moods, complete self-assessments, and maintain encrypted personal diaries, along with an AI chatbot for guidance. Therapists can manage schedules and conduct consultations, while admins verify professionals and monitor operations without accessing sensitive data.
+I built the frontend using ReactJS and the backend using Spring Boot / ASP.NET with MySQL as the database. Security is handled using JWT authentication and role-based access control.
+The system follows a layered architecture: Controller → Service → Repository → Database. One key challenge was integrating WebRTC securely and implementing strict role-based authorization.
+Overall, the platform provides a scalable, privacy-focused digital mental health solution, and in the future I plan to add payment integration and advanced AI-based insights
+
+
+
+SafeMind — Perfect Project Explanation (Interview Ready)
+1️⃣ 1-Line Summary (Start Strong)
+
+“SafeMind is a secure web-based mental health platform that connects users with verified therapists through online appointment booking and real-time video consultations using WebRTC.”
+
+Nice, crisp, professional. Boom.
+
+2️⃣ Problem Statement (Why You Built It)
+
+“Traditional mental health services often suffer from limited accessibility, lack of privacy, and delayed support, especially for remote users. SafeMind solves this by providing a secure, accessible, and privacy-focused digital therapy platform.”
+
+Shows real-world relevance = interviewer impressed.
+
+3️⃣ Core Features (Only Important Ones)
+
+“The key features of SafeMind include:
+
+User registration and profile management
+
+Online appointment booking with therapists
+
+Real-time video consultation using WebRTC
+
+Mood tracking and self-assessment tools
+
+Encrypted personal diary for users
+
+AI-based chatbot for general mental health guidance
+
+Admin panel for professional verification and appointment monitoring”
+
+Now they know scope + complexity.
+
+4️⃣ Tech Stack (With Reasons)
+
+Say this confidently:
+
+“For frontend, I used ReactJS to build a dynamic and responsive UI.
+For backend, I implemented REST APIs using Spring Boot / ASP.NET to handle business logic and security.
+MySQL is used as the relational database to store users, appointments, and therapist data.
+WebRTC is integrated for real-time video consultations.
+JWT is used for secure stateless authentication, and role-based access control ensures data privacy.”
+
+🔥 This shows decision-making ability, not just tool usage.
+
+5️⃣ System Architecture / Request Flow (VERY IMPORTANT)
+
+This is where you look like a real backend engineer.
+
+“The architecture follows a layered approach:
+Client (React) → Controller → Service Layer → Repository → MySQL Database.
+
+For example, when a user books an appointment, the request is sent from the React frontend to the AppointmentController, which validates input and calls the service layer. The service applies business rules and stores the appointment through the repository layer into MySQL.”
+
+Now interviewer knows you understand backend flow deeply.
+
+6️⃣ Security Design (Big Highlight for This Project)
+
+You should emphasize this 👇
+
+“Security was a major focus. I implemented JWT-based authentication to ensure stateless and secure API communication. Role-Based Access Control (RBAC) is used to restrict access so that users, therapists, and admins can only access authorized resources. Sensitive data like personal diaries is encrypted to maintain privacy.”
+
+Privacy + JWT + RBAC = strong backend credibility 💪
+
+7️⃣ Challenges You Faced (Real Experience Section)
+
+You can say:
+
+“One major challenge was integrating WebRTC for real-time video consultations and handling secure session management. Another challenge was ensuring role-based authorization so that admins could manage operations without accessing sensitive user mental health data.”
+
+This sounds very real and practical 👌
+
+8️⃣ Impact / Results
+
+“The platform provides a scalable and privacy-focused solution that improves accessibility to mental health support, especially for remote users, while ensuring secure communication between users and professionals.”
+
+Shows product thinking, not just coding.
+
+9️⃣ OOPS Concepts Used (Java Interview Bonus 💯)
+
+You can add:
+
+“I applied OOPS principles such as:
+
+Encapsulation in service layer business logic
+
+Abstraction using service interfaces
+
+Inheritance for common entity fields
+
+Polymorphism in different role-based service implementations”
+
+Now you’ve connected project → core CS fundamentals 😎
+
+🔮 10️⃣ Future Enhancements (Shows Vision)
+
+“Future improvements include adding AI-driven mental health insights, push notifications for session reminders, payment integration, and analytics dashboards for therapists.”
+
+Interviewers LOVE this part.

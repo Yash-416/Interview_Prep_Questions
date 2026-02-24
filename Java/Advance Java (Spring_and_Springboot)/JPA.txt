@@ -1,0 +1,60 @@
+JPA Fundamentals
+What is JPA and how does it differ from Hibernate?
+What problems does JPA solve in Java applications?
+What is ORM and how does JPA support ORM?
+Is JPA a specification or an implementation?
+How does JPA interact with different ORM providers?
+
+JPA Core Interfaces and Architecture
+What are the main components of JPA architecture?
+What is EntityManager and how is it different from Session in Hibernate?
+What is EntityManagerFactory and why is it expensive to create?
+What is persistence unit and persistence context in JPA?
+What is the role of persistence.xml in JPA?
+
+Entity Mapping and Annotations
+What is an entity class in JPA?
+What are commonly used JPA annotations for mapping?
+What is the purpose of @Entity, @Table, and @Id annotations?
+What are different primary key generation strategies in JPA?
+What is the difference between @GeneratedValue strategies AUTO, IDENTITY, SEQUENCE, and TABLE?
+What is @Column annotation and how does it customize mapping?
+
+Entity Lifecycle and Persistence Context
+What are different states of an entity in JPA?
+Explain new, managed, detached, and removed entity states.
+How does EntityManager manage entity lifecycle?
+What happens when persist(), merge(), remove(), and detach() are called?
+What is the difference between persist() and merge()?
+
+Relationships and Association Mapping
+What types of relationships are supported in JPA?
+How do you map one to one, one to many, many to one, and many to many relationships?
+What is the use of @JoinColumn and @JoinTable annotations?
+What is mappedBy attribute in bidirectional relationships?
+What is the difference between owning side and inverse side in JPA mapping?
+
+Fetching and Cascading
+What is lazy fetching and eager fetching in JPA?
+What is default fetch type for @OneToMany and @ManyToOne?
+What are cascade types in JPA and when should they be used?
+What is orphanRemoval and how does it work?
+
+JPQL and Query Mechanisms
+What is JPQL and how is it different from SQL?
+What are the advantages of JPQL over native SQL?
+How do you create named queries in JPA?
+What is Criteria API in JPA and when is it used?
+What is the difference between JPQL and Criteria API?
+
+Transactions and Locking
+How are transactions managed in JPA?
+What is the difference between resource local and JTA transactions?
+What is optimistic locking in JPA?
+What is pessimistic locking in JPA?
+How does @Version annotation help in concurrency control?
+
+JPA vs Hibernate Concepts
+What is the difference between JPA and Hibernate?
+When should we use pure JPA vs Hibernate specific features?
+How does JPA ensure portability across different ORM implementations?

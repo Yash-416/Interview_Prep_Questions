@@ -1,0 +1,64 @@
+Hibernate Fundamentals
+What is Hibernate and how does it differ from JDBC?
+What problems does Hibernate solve in persistence layer?
+What is ORM and how does Hibernate implement ORM?
+What are the advantages of using Hibernate over JDBC?
+
+Hibernate Architecture and Core Components
+What are the main components of Hibernate architecture?
+What is the role of Configuration, SessionFactory, Session, and Transaction?
+What is SessionFactory and why is it heavyweight?
+What is Session in Hibernate and how is it different from JDBC Connection?
+What is the role of Transaction in Hibernate?
+
+Entity Mapping and Annotations
+What is an entity class in Hibernate?
+What are common Hibernate/JPA annotations used for mapping?
+What is the purpose of @Entity and @Table annotations?
+What is @Id and how do you define primary key generation strategies?
+What is the difference between @Column and default column mapping?
+
+Session and Persistence Context
+What is persistence context in Hibernate?
+What are the different states of an entity in Hibernate?
+Explain transient, persistent, and detached states of an entity.
+What happens when session.save(), update(), and saveOrUpdate() are called?
+What is the difference between get() and load() methods in Hibernate?
+
+Fetching and Caching Strategies
+What is lazy loading and eager loading in Hibernate?
+What is the default fetch type for collections and single valued associations?
+What are first level and second level caches in Hibernate?
+What is the difference between first level cache and second level cache?
+How does Hibernate caching improve performance?
+
+Relationships and Mappings
+What are different types of entity relationships in Hibernate?
+How do you map one to one, one to many, many to one, and many to many relationships?
+What is mappedBy attribute and why is it used?
+What is the difference between unidirectional and bidirectional mapping?
+How does cascade type work in Hibernate relationships?
+
+HQL and Criteria Queries
+What is HQL and how is it different from SQL?
+What are advantages of using HQL over native SQL?
+What is Criteria API in Hibernate?
+What is the difference between HQL and Criteria API?
+When should native SQL queries be used in Hibernate?
+
+Transactions and Concurrency
+How does Hibernate manage transactions?
+What is optimistic locking and pessimistic locking in Hibernate?
+How is @Version annotation used for optimistic locking?
+What are common concurrency issues in ORM frameworks?
+
+Performance and Optimization
+What is N+1 select problem in Hibernate?
+How can N+1 problem be solved in Hibernate?
+What is batching in Hibernate and how does it improve performance?
+What are fetch joins and when should they be used?
+
+Hibernate vs JPA Concepts
+What is the difference between Hibernate and JPA?
+Is Hibernate a JPA implementation?
+When should we use Hibernate specific features over standard JPA?

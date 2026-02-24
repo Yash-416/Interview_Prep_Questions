@@ -1,0 +1,56 @@
+Spring Data JPA Fundamentals
+What is Spring Data JPA and how does it simplify database access?
+How is Spring Data JPA different from JPA and Hibernate?
+What problems does Spring Data JPA solve compared to traditional DAO layer?
+How does Spring Boot integrate with Spring Data JPA automatically?
+
+Repository Interfaces and Core Concepts
+What is JpaRepository and how is it different from CrudRepository?
+What are the main repository interfaces provided by Spring Data JPA?
+What is PagingAndSortingRepository and when should it be used?
+How does Spring Data JPA generate implementations at runtime?
+What is the role of @Repository annotation?
+
+Derived Query Methods
+What are derived query methods in Spring Data JPA?
+How does method name based query generation work?
+What are common keywords used in derived query methods?
+How do you create custom finder methods using method naming conventions?
+What are the limitations of derived query methods?
+
+Custom Queries and JPQL
+What is @Query annotation in Spring Data JPA?
+How do you write JPQL queries using @Query?
+What is the difference between JPQL and native queries?
+How do you execute native SQL queries in Spring Data JPA?
+When should native queries be preferred over JPQL?
+
+Pagination and Sorting
+How do you implement pagination in Spring Data JPA?
+What is Pageable and Page interface?
+How does sorting work in Spring Data JPA repositories?
+What is the difference between Slice and Page?
+
+Entity Projections and DTO Mapping
+What are projections in Spring Data JPA?
+What is the difference between interface based and class based projections?
+How do you map query results directly to DTOs?
+When should projections be preferred over fetching full entities?
+
+Transactions and Performance
+How does transaction management work in Spring Data JPA?
+What is @Transactional annotation and where should it be used?
+What is the difference between readOnly and default transactions?
+How does Spring Data JPA handle lazy loading and session management?
+
+Auditing and Advanced Features
+What is JPA auditing and how is it implemented in Spring Data JPA?
+What are @CreatedDate and @LastModifiedDate annotations?
+How does Spring Data JPA support automatic auditing?
+What is the use of @EnableJpaAuditing annotation?
+
+Specifications and Dynamic Queries
+What are Specifications in Spring Data JPA?
+How do you build dynamic queries using Specifications?
+What is Criteria API integration with Spring Data JPA?
+When should Specifications be used over derived queries?

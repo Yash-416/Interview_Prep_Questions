@@ -1,0 +1,53 @@
+Spring Boot Fundamentals
+What is Spring Boot and how is it different from Spring Framework?
+What problems does Spring Boot solve in application development?
+What are the key features of Spring Boot?
+What is auto configuration in Spring Boot?
+How does Spring Boot auto configuration work internally?
+
+Spring Boot Project Structure and Setup
+What is Spring Initializr and how is it used?
+What is the typical project structure of a Spring Boot application?
+What is the role of @SpringBootApplication annotation?
+What are the components of @SpringBootApplication?
+How does component scanning work in Spring Boot?
+
+Configuration and Properties
+What is application.properties and application.yml in Spring Boot?
+What is the difference between .properties and .yml configuration files?
+How do you inject values from properties file using @Value?
+What is @ConfigurationProperties and how is it different from @Value?
+How do profiles work in Spring Boot?
+What is the use of @Profile annotation?
+
+Spring Boot REST and Web Layer
+How do you create REST APIs using Spring Boot?
+What is @RestController and how is it different from @Controller?
+What is the difference between @RequestMapping, @GetMapping, @PostMapping?
+How do you bind request parameters using @RequestParam and @PathVariable?
+What is @RequestBody and how is it used?
+How does Spring Boot convert JSON to Java objects automatically?
+
+Validation and Exception Handling
+How do you validate request data in Spring Boot?
+What is @Valid and how does it work with Bean Validation?
+How do you create global exception handling using @ControllerAdvice?
+What is the difference between @ExceptionHandler and @ControllerAdvice?
+
+Spring Boot Data and Persistence Integration
+How does Spring Boot integrate with JPA and Hibernate?
+What is the role of spring-boot-starter-data-jpa dependency?
+How does Spring Boot configure DataSource automatically?
+What is HikariCP and why is it default connection pool in Spring Boot?
+
+Spring Boot Actuator and Monitoring
+What is Spring Boot Actuator and why is it used?
+What are common actuator endpoints?
+How do you enable and secure actuator endpoints?
+
+Spring Boot Testing and Deployment
+How do you test Spring Boot applications?
+What is @SpringBootTest annotation?
+What is the difference between unit test and integration test in Spring Boot?
+How do you package and run a Spring Boot application as a jar?
+What is embedded server in Spring Boot and how does it work?

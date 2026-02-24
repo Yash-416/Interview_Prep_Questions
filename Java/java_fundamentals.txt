@@ -1,0 +1,116 @@
+Fundamentals
+
+Class and Object Fundamentals
+What is a class in Java and what are the steps to write and compile a class?
+What is an object and how does it relate to a class?
+How do we create an object in Java and what is meant by an object reference?
+Can an object be created without using the new operator? Explain different approaches.
+What is the this reference and what are its common uses inside a class?
+
+Variables and Initialization
+What is the difference between local variables, instance variables, and static variables?
+What is a static block and when is it executed during class loading?
+Can we write multiple static blocks in a class and in what order are they executed?
+What is a static method and when should it be used?
+
+Constructors and Object Creation
+What is a constructor in Java, what is its purpose, and what are its different types?
+What is constructor overloading and how is it different from method overloading?
+What is constructor chaining and how do you implement it using this() and super()?
+Does a constructor return any value explicitly or implicitly?
+Can constructors be inherited in Java? Why or why not?
+Can we declare a constructor as static, abstract, or final? Justify your answer.
+Can we make a constructor private and in which scenarios is it useful?
+What is a singleton class and how do you implement it in Java?
+
+Main Method and Program Execution
+Why is the main method declared static in Java?
+In a single Java source file, how many classes can be defined and what are the rules for public classes?
+Can we call the main() method explicitly from another method?
+Can we declare the main() method as private, protected, or with default access modifier?
+Can we run a Java program without a main() method? If yes, under what circumstances?
+What are command line arguments in Java and how are they passed to the program?
+
+
+Final, Abstract and Core OOP Modifiers
+Explain the concept of final variable, final method, and final class.
+What is an abstract method and what are the rules for declaring it?
+What is an abstract class and how is it different from a concrete class?
+Can an abstract class contain concrete methods and constructors?
+Can there be an abstract class without any abstract methods? In which scenarios is it useful?
+Can a class be declared both abstract and final at the same time? Why or why not?
+
+Interfaces and Related Concepts
+What is an interface in Java and what is its primary use?
+Can we instantiate an interface directly? Explain with reasoning.
+Do interfaces contain member variables and what are their default modifiers?
+What modifiers are allowed for methods inside an interface?
+What is a marker interface and where is it used in Java?
+When can an object reference be safely cast to an interface reference?
+What is the difference between an interface and an abstract class?
+When should we use abstract classes and when should we prefer interfaces?
+
+Access Control and Packages
+What are the different access specifiers available in Java?
+What is the use of the protected access modifier in inheritance?
+What is a package in Java and what are its advantages?
+Explain the statement import java.awt.event.* and how wildcard imports work.
+What is the use of static imports in Java?
+Do we need to explicitly import the java.lang package? Why is it available by default?
+Can we import the same package or class multiple times and does it affect runtime behavior?
+
+Core Java Platform and Execution Model
+What is the difference between JDK, JRE, and JVM?
+How does Java achieve platform independence?
+What is bytecode and how is it executed by the JVM?
+What is the life cycle of a Java program from source code to execution?
+
+Memory Management and Data Handling
+What is the difference between stack memory and heap memory in Java?
+What is garbage collection and how does JVM manage memory automatically?
+What is the difference between == operator and equals() method?
+What is encapsulation and how is it achieved using access modifiers and getters/setters?
+What is the difference between shallow copy and deep copy in Java?
+
+
+Data Types and Operators
+What are primitive data types in Java and what are their sizes and default values?
+What is the difference between primitive types and reference types?
+What is type casting and what are widening and narrowing conversions?
+What is implicit and explicit type conversion in Java?
+What are operators in Java and what are their different categories?
+What is the difference between == and equals() for primitives and objects?
+
+Control Flow Statements
+What are decision-making statements in Java and how do they work?
+What is the difference between if, if-else, and switch statements?
+What are looping constructs in Java and when should each be used?
+What is the difference between for, while, and do-while loops?
+What are break and continue statements and how do they affect loop execution?
+
+
+Enumerations and Annotations
+What is an enum in Java and when should it be used?
+What are annotations in Java and what are their common types?
+What is the purpose of @Override, @Deprecated, and @SuppressWarnings annotations?
+
+Basic Input Output
+What is the difference between System.out, System.err, and System.in?
+How do we take input from the console in Java?
+What is the difference between Scanner and BufferedReader?
+
+Java Naming Conventions and Coding Standards
+What are standard naming conventions for classes, methods, variables, and constants in Java?
+Why are coding conventions important in Java development?
+
+JVM Internals Basics
+What are the main components of JVM architecture?
+What is class loading and what are the phases of class loading process?
+What is the difference between ClassLoader types in Java?
+
+Miscellaneous Core Fundamentals
+What is pass by value in Java and how does it apply to objects?
+Why is Java not considered a purely object-oriented language?
+What is the difference between compile-time polymorphism and runtime polymorphism?
+What is method hiding in Java?
+What is the difference between composition and inheritance?

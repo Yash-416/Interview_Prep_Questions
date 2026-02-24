@@ -1,0 +1,56 @@
+Spring Core Fundamentals
+What is Spring Framework and what problems does it solve?
+What are the main modules of the Spring Framework?
+What is Inversion of Control and how is it implemented in Spring?
+What is Dependency Injection and what are its types?
+What is the difference between IoC and DI?
+
+Spring Beans and Configuration
+What is a Spring Bean?
+How are beans defined and configured in Spring?
+What is the difference between XML configuration, annotation-based configuration, and Java-based configuration?
+What is @Component and how does component scanning work?
+What are stereotype annotations in Spring?
+
+Bean Lifecycle and Scope
+What is the lifecycle of a Spring Bean?
+What are init and destroy methods in Spring beans?
+What is BeanPostProcessor and its role?
+What are different bean scopes in Spring?
+What is the difference between singleton and prototype scope?
+What are request, session, and application scopes in Spring?
+
+Dependency Injection in Depth
+What are constructor injection and setter injection?
+What is the difference between constructor and setter injection?
+What is field injection and why is it discouraged?
+What is @Autowired and how does it work?
+What is the difference between @Autowired and @Inject?
+What happens if multiple beans of same type are present?
+
+Bean Wiring and Qualifiers
+What is autowiring in Spring?
+What are different modes of autowiring?
+What is @Qualifier and why is it used?
+What is @Primary annotation and when should it be used?
+How does Spring resolve dependency ambiguity?
+
+Spring Context and Container
+What is ApplicationContext and how is it different from BeanFactory?
+What are different implementations of ApplicationContext?
+When should BeanFactory be preferred over ApplicationContext?
+How does Spring container manage beans internally?
+
+Spring AOP Basics
+What is Aspect Oriented Programming in Spring?
+What problems does AOP solve?
+What are cross cutting concerns?
+What are advice, aspect, join point, and pointcut?
+What is the difference between before, after, and around advice?
+How does Spring AOP use proxies internally?
+
+Spring Expression and Environment
+What is @Value annotation and how is it used?
+How are properties injected from application properties file?
+What is Environment abstraction in Spring?
+How does Spring handle externalized configuration?

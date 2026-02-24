@@ -1,0 +1,109 @@
+String
+
+String Basics and Immutability
+Why are String objects immutable in Java?
+What is a String in Java and how is it different from primitive data types?
+Is String a primitive type or a derived data type in Java?
+What are the advantages of immutability of String objects?
+How does immutability of String improve security and performance?
+What are mutable and immutable objects in the context of strings?
+
+String Creation and String Pool
+What is a string literal or first class notation in Java?
+What is string pooling and how does the String constant pool work?
+What is the difference between creating a String using literal and using new keyword?
+What is the role of the intern() method in String pooling?
+How does JVM manage memory for String literals and heap objects?
+
+String Class Methods and API Study
+List commonly used methods of the String class for API study.
+Explain the use of length(), charAt(), and substring() methods.
+Explain the difference between equals() and equalsIgnoreCase() in String.
+How do compareTo() and compareToIgnoreCase() methods work in String?
+What is the difference between concat() method and + operator for Strings?
+Explain startsWith(), endsWith(), contains(), and indexOf() methods.
+What is the difference between trim() and strip() methods?
+Explain replace(), replaceAll(), and split() methods in String class.
+
+StringBuffer and StringBuilder Concepts
+What is the difference between String and StringBuffer?
+What is the difference between StringBuffer and StringBuilder?
+When should we prefer StringBuilder over StringBuffer?
+Why is StringBuffer considered thread safe?
+Explain mutability of StringBuffer and StringBuilder.
+List commonly used methods of the StringBuffer class for API study.
+List commonly used methods of the StringBuilder class for API study.
+What is the difference between append(), insert(), and delete() methods?
+What is the difference between capacity() and length() methods in StringBuffer and StringBuilder?
+
+String Comparison and Equality
+What is the difference between == operator and equals() method for String comparison?
+How does JVM optimize String comparison using the string pool?
+When will two different String objects return true using equals() but false using ==?
+Explain lexical comparison of strings using compareTo().
+
+Advanced String Handling Concepts
+What is the difference between String, StringBuffer, and StringBuilder in terms of performance?
+How does concatenation impact memory when using immutable Strings?
+What is the significance of using StringBuilder in loops for concatenation?
+Explain how String immutability helps in caching and hash based collections.
+
+
+Arrays
+
+Array Basics and Fundamentals
+What is an array in Java and why is it used?
+How is an array different from other data structures?
+What are the advantages and limitations of arrays?
+Is an array a primitive data type or an object in Java?
+How are arrays stored in memory in Java?
+
+Array Declaration, Creation and Initialization
+How do you declare an array in Java?
+How do you create and initialize an array in different ways?
+What is the difference between declaration and instantiation of an array?
+How do you initialize an array using array literals?
+What happens if an array is declared but not initialized?
+
+Types of Arrays
+What are single dimensional arrays and how are they used?
+What are multidimensional arrays in Java?
+What is the difference between rectangular and jagged arrays?
+How do you declare and initialize a two dimensional array?
+
+Array Traversal and Manipulation
+How do you traverse an array using loops?
+What are the different ways to iterate over an array?
+How do you access and update elements of an array?
+What happens if we try to access an index out of array bounds?
+
+Array Utility Methods and API Study
+What is the use of Arrays class in Java?
+List commonly used methods of Arrays class for API study.
+Explain the use of sort(), binarySearch(), fill(), and copyOf() methods.
+What is the difference between Arrays.equals() and Arrays.deepEquals()?
+How does Arrays.toString() differ from Arrays.deepToString()?
+
+Array Copying and Cloning
+What is array cloning and how is it performed?
+What is the difference between shallow copy and deep copy in arrays?
+What are different ways to copy arrays in Java?
+What is the difference between clone(), System.arraycopy(), and copyOf()?
+
+Array Comparison and Equality
+How do we compare two arrays for equality?
+What is the difference between == operator and Arrays.equals() for arrays?
+When should Arrays.deepEquals() be used instead of Arrays.equals()?
+
+Arrays and Memory Concepts
+Where are arrays stored in memory, stack or heap?
+What is the default value of array elements for primitive and reference types?
+Can array size be changed after creation? Why or why not?
+Why are arrays considered fixed size data structures?
+
+Advanced Array Concepts
+What are varargs and how are they related to arrays?
+How are arrays passed to methods in Java?
+Are arrays passed by value or by reference in Java?
+What is the difference between array and ArrayList?
+How do arrays support covariance in Java?

@@ -1,0 +1,60 @@
+Garbage Collection
+"
+1.Consider following program. When is the B object, created in line 3, eligible for garbage collection?
+void testMethod()
+{
+  A aObj = new A();
+  BbObj = new B();
+  aObj.aMethod(bObj);
+  aObj=null;
+  bObj=null;
+  System.out.println(“Completed”);
+}
+after line 5"
+Q)Which part of the memory is involved in Garbage Collection? Stack or Heap?
+Q)What is the purpose of garbage collection in Java, and when is it used ?
+Q)What does System.gc() and Runtime.gc() methods do ?
+Q)Can the Garbage Collection be forced by any means?
+Q)When is the finalize() called ? What is the purpose of finalization ?
+Q)How to enable/disable call of finalize() method of exit of the application
+Q) When does an Object becomes eligible for Garbage collection in Java 
+Q) Is garbage collector a daemon thread?
+Q)what is Islands of Isolation?
+Q)What is difference between final, finally and finalize?
+Q)Explain Garbage collection mechanism in Java? GC Phases?
+
+
+Multithreading
+Q)What is Multithreading in Java?what are its advantages?
+Q)What is Thread in Java?
+Q)Explain Thread Life Cycle with diagram?
+Q)What is the difference between Thread and Process in Java?
+Q)How do you implement Threads in Java?
+Q)What are differences between implementing Runnable and extending Thread?
+Q)What is difference between starting thread with run() and start() method? 
+Q)Can you again start Thread?what will happen if we do it?
+Q)List Thread class methods?
+Q) How can you say Thread behaviour is unpredictable?
+Q)How can you ensure all threads that started from main must end in order in which they 
+started and also main should end in last? 
+Q)What is a daemon thread?How to make a thread (user thread) to Daemon thread?
+Q)What is difference between user thread and Daemon thread?
+Q)what is Thread synchronization?
+Q)What is thread-safety? is Vector a thread-safe class?
+Q)What is race condition in multithreading and how can we solve it?
+Q)How to stop a thread in Java
+Q)How threads communicate between each other?
+Q)What is the difference between notify and notifyAll in Java?
+Q)Why wait(), notify()  and notifyAll() are in Object class and not in Thread class?
+Q)Is it important to acquire object lock before calling wait(), notify() and notifyAll()?
+Q)what is significance of yield() method, what state does it put thread in?
+Q)Difference between wait() and sleep() ? 
+Q)Difference and similarities between yield() and sleep()
+Q)Mention some guidelines to write thread safe code, most important point we must take care of in multithreading programs?
+Q)What will happen if we don’t override run method?
+Q)What will happen if we override start method?
+Q)What do you mean by thread starvation?
+Q)What is ThreadGroup in java, What is default priority of newly created threadGroup, mention some important ThreadGroup methods ?
+Q)What are thread priorities?
+Q)Difference between synchronized block & synchronized method?
+

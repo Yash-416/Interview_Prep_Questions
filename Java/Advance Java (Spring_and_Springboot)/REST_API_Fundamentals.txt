@@ -1,0 +1,49 @@
+RESTful Web Services Fundamentals
+What is a RESTful web service and what are its core principles?
+What are the constraints of REST architecture?
+What is the difference between REST and SOAP web services?
+What are resources and representations in REST?
+
+HTTP Methods and REST Semantics
+What are different HTTP methods used in REST APIs?
+What is the difference between GET, POST, PUT, PATCH, and DELETE?
+What is idempotency in REST and which HTTP methods are idempotent?
+What is the difference between PUT and PATCH methods?
+What are safe and unsafe HTTP methods?
+
+REST API Design and Best Practices
+What are best practices for designing RESTful APIs?
+How should URIs be designed in RESTful services?
+What is the difference between path parameters and query parameters?
+What is HATEOAS and why is it used in REST?
+
+Spring Boot REST Controllers
+How do you create REST APIs using Spring Boot?
+What is @RestController and how is it different from @Controller?
+What is @RequestMapping and how do specialized mappings work?
+What is the difference between @GetMapping, @PostMapping, @PutMapping, and @DeleteMapping?
+How do you bind request data using @RequestBody, @RequestParam, and @PathVariable?
+
+Request and Response Handling
+How does Spring Boot automatically convert JSON to Java objects?
+What is content negotiation in REST APIs?
+How do you customize HTTP response using ResponseEntity?
+What are HTTP status codes and how are they returned in Spring Boot?
+
+Exception Handling and Validation
+How do you handle exceptions globally in REST APIs?
+What is @ControllerAdvice and how is it used?
+What is @ExceptionHandler and when should it be used?
+How do you validate REST request payload using @Valid and Bean Validation?
+
+Serialization and Data Transfer
+What is serialization and deserialization in REST APIs?
+How does Jackson library work with Spring Boot?
+What is the role of DTO in RESTful services?
+Why should entities not be exposed directly in REST responses?
+
+Versioning and Security Basics
+What are different ways to version REST APIs?
+What is URI versioning vs header versioning?
+How do you secure REST APIs at a basic level?
+What is CORS and how is it handled in Spring Boot REST APIs?

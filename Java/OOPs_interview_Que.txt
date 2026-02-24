@@ -1,0 +1,145 @@
+OOPs 
+
+Object Oriented Programming Concepts
+Explain OOPS.
+Explain abstraction with a real life example.
+Explain encapsulation with a real life example.
+Explain the relationship between abstraction and encapsulation.
+Explain polymorphism and its types.
+Explain inheritance and its purpose.
+Which OOPS concept is used as a reuse mechanism?
+Which OOPS concept exposes only the necessary information to the calling functions?
+Define the benefits of object oriented programming.
+Define the benefits of OOPS over procedural programming.
+Explain the four pillars of OOPS with suitable examples.
+Explain how OOPS helps in real world system design.
+
+Class, Object and Access Control
+Explain a class and create a simple class structure.
+Using the created class, briefly explain abstraction and encapsulation.
+Explain the difference between class and object.
+Explain an object and create an object of a class.
+Give real life examples of objects.
+Define access modifiers and explain their purpose.
+Explain the default access modifier in a class.
+Explain the default access specifiers in a class definition.
+What is a nested class and what are its types?
+Explain the concept of inner classes and their use cases.
+
+Constructors and Object Lifecycle
+Explain a constructor and its role in object creation.
+Define the various types of constructors.
+Do constructors require parameters?
+Can abstract classes have constructors?
+How many instances can be created for an abstract class?
+Explain a private constructor and where it is used.
+Explain constructor overloading.
+Explain constructor chaining and its significance.
+What is object initialization and how does it differ from object instantiation?
+
+Methods, Binding and Polymorphism
+Explain function overloading and its rules.
+Explain method overriding and its rules.
+Differentiate between overloading and overriding.
+Does function overloading depend on return type?
+Explain static binding and dynamic binding.
+Explain early binding and late binding with examples.
+Explain dynamic or runtime polymorphism.
+Can overriding be done in the same class?
+What is method hiding and how is it different from overriding?
+Explain the role of dynamic method dispatch in runtime polymorphism.
+
+Inheritance and Class Relationships
+Explain base class, subclass and superclass concepts.
+Write in brief about linking of base class, subclass and their objects.
+Explain generalization and specialization.
+Explain association, aggregation and composition.
+Explain object composition versus inheritance.
+How is composition better than inheritance?
+Explain the diamond problem in inheritance.
+Explain the solution to the diamond problem.
+Can a class be inherited but prevent its methods from being overridden?
+Explain multiple inheritance and how it is handled in languages that do not support it directly.
+Explain hierarchical and multilevel inheritance with examples.
+
+Abstract Classes and Interfaces
+Explain an abstract class and its need.
+Why can’t we instantiate an abstract class?
+Can there be an abstract class without any abstract methods?
+Explain an interface and its purpose.
+When should interface be used over abstract class?
+How can we achieve polymorphism without using a base class?
+Why can’t accessibility modifiers be specified for methods inside an interface?
+Explain default and static methods in interfaces.
+Explain functional interfaces and their significance.
+
+Coupling, Cohesion and Reusability
+Explain loose coupling and tight coupling.
+Give examples of tight coupling and loose coupling.
+Explain cohesion and its importance in design.
+Explain black box reuse and white box reuse.
+Explain high cohesion and low coupling principles.
+Explain dependency injection and how it promotes loose coupling.
+
+Keywords and Core OOP Features
+Explain the use of this keyword.
+Explain the super keyword and its use.
+Write in brief about static members and static member functions.
+Can static members use non static members? Give reasons.
+Whether static methods can use non static members?
+Explain final keyword in context of variable, method and class.
+
+Additional Object Oriented Features
+Explain exception handling in object oriented programming.
+Explain operator overloading.
+Explain inline functions.
+Explain virtual functions and pure virtual functions.
+Explain friend functions.
+Explain call by value and call by reference arguments.
+Explain object cloning and shallow vs deep copy concepts.
+
+Design Principles and Advanced OOP Concepts
+Explain SOLID principles in object oriented design.
+Explain Single Responsibility Principle with an example.
+Explain Open Closed Principle and its importance.
+Explain Liskov Substitution Principle with a scenario.
+Explain Interface Segregation Principle and why it matters.
+Explain Dependency Inversion Principle and its relation to abstraction.
+Explain the concept of design patterns in OOP.
+Explain factory pattern and its relation to object creation.
+Explain strategy pattern and its relation to polymorphism.
+
+Miscellaneous OOP and Language Design Concepts
+Explain structured programming and its disadvantages.
+Explain the advantage of block structured programming languages.
+Can structures be inherited?
+Explain tokens in programming languages with examples.
+Explain the ternary operator.
+Define different ways to declare and initialize arrays.
+Explain sealed modifiers and their purpose in inheritance control.
+Explain the difference between new and override in method definitions.
+How can we call a base method without creating an instance?
+
+
+
+Object Class related Questions
+
+Explain the Object class in Java and its significance as the root of the class hierarchy.
+List and explain the commonly used methods of the Object class.
+What is the purpose of the toString() method and how can it be overridden?
+What is the hashCode() method and what is its contract with equals()?
+Can two different objects have the same hashCode()? Explain the implications.
+How do we check object duplicacy or logical equality in Java?
+What is the difference between the == equality operator and the equals() method?
+What is the difference between equals() and compareTo() methods?
+What is the use of the getClass() method and when is it preferred?
+What is the clone() method and how does object cloning work in Java?
+What is shallow cloning and how does it differ from deep cloning?
+What are the steps to implement deep cloning in Java?
+What is the significance of implementing Cloneable interface during cloning?
+What happens if clone() is called without implementing Cloneable?
+Explain the finalize() method and its role in object cleanup.
+What is the difference between identity hash code and overridden hashCode()?
+What is the equals and hashCode contract and why is it important?
+When should we override equals() and hashCode() together?
+What issues arise if equals() is overridden but hashCode() is not?

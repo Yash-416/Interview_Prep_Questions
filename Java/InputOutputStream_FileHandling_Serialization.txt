@@ -1,0 +1,53 @@
+Java Input-Output,File-Handling & Serialization
+Q)What is a stream? what are the types of Streams?
+Q)Difference between Reader/Writer and InputStream/Output Stream?
+Q)What are the super most classes of all streams?
+Q)Difference between FileInputStream and FileOutputStream?
+Q)What are filter streams?
+Q)What is File class ?List methods of File class?
+Q)what is chaining or layering of streams?give example
+Q)What is RandomAccessFile?
+Q)what is the use of BufferedInputStream & BufferedOutputStream 
+Q)what is the use of DataInputStream & DataOutputStream 
+Q)Difference between Scanner and BufferedReader ? Which one is faster and Why ?
+"Q)What will be the output of following code ? public static void main(String[] args){
+String name = null;
+File file = new File(""myfile.txt"");
+System.out.print(file.exists());
+}
+"
+"Q)What will be the output of following code ?
+
+public static void main(String[] args){
+String parent = null;
+File file = new File(parent, ""myfile.txt"");
+try {
+file.createNewFile();
+} catch (IOException e) {
+e.printStackTrace();
+}
+}"
+
+Q)Which exceptions should be handled with the following code ?
+FileOutputStream fileOutputStream = new FileOutputStream(new File("newFile.txt"));
+
+Q)what is Serialization?What is the need of Serialization?
+Q)what is deserialization?
+Q)What is the difference between Serializable and Externalizable interface in Java?
+Q)How many methods Serializable has? If no method then what is the purpose of Serializable interface?
+Q)What is the difference between Serializable and Externalizable interface in Java?
+Q)While serializing you want some of the members not to serialize? How do you achieve it?
+Q)What will happen if one of the members[contained object] in the class doesn't implement Serializable interface
+Q)If a class is Serializable but its super class in not, what will be the state of the instance variables inherited from super class after deserialization
+Q)Can you Customize Serialization process or can you override default Serialization process in Java
+Q)Can we transfer a Serialized object via network
+Q)Which kind of variables is not serialized during Java Serialization
+Q)What is a transient variable?
+Q)What will be the value of transient variable after de-serialization?
+Q)What is use of serialVersionUID?
+Q)Are the static variables saved as the part of serialization?
+
+
+idempotency
+
+UUID

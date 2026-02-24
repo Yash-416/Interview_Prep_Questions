@@ -1,0 +1,63 @@
+Servlet Fundamentals
+What is a Servlet and how does it work in web applications?
+What are the advantages of Servlets over traditional CGI?
+What are the main components of Servlet architecture?
+What is the role of a Servlet container?
+
+Servlet Lifecycle
+What is the lifecycle of a Servlet?
+Explain init(), service(), and destroy() methods in Servlet lifecycle.
+When is the init() method called?
+How many times is the service() method invoked?
+When is destroy() method executed?
+
+GenericServlet and HttpServlet
+What is the difference between GenericServlet and HttpServlet?
+Why is HttpServlet more commonly used than GenericServlet?
+What are doGet() and doPost() methods in HttpServlet?
+What is the difference between doGet() and doPost()?
+
+Servlet Request and Response
+What is ServletRequest and ServletResponse?
+What is HttpServletRequest and HttpServletResponse?
+How do you read form data using HttpServletRequest?
+How do you send response to the client using HttpServletResponse?
+What is the difference between getParameter() and getAttribute()?
+
+Session Management in Servlets
+What is session management in web applications?
+What are the different ways to manage sessions in Servlets?
+What is HttpSession and how is it used?
+What is the difference between getSession() and getSession(false)?
+What are cookies and how are they used in session tracking?
+What is URL rewriting and when is it used?
+
+Servlet Configuration and Deployment
+What is web.xml and what is its purpose?
+What is the difference between ServletConfig and ServletContext?
+How do you configure a Servlet using annotations?
+What is load-on-startup in servlet configuration?
+
+Request Dispatching and Navigation
+What is RequestDispatcher in Servlets?
+What is the difference between forward() and include()?
+What is the difference between sendRedirect() and forward()?
+When should we use forward vs redirect?
+
+Filters and Listeners
+What is a Filter in Servlets and why is it used?
+Explain the lifecycle of a Filter.
+What are common use cases of Filters?
+What is a Listener in Servlet API?
+Name different types of listeners in Servlets.
+
+Error Handling and Exception Handling
+How do you handle exceptions in Servlets?
+How can you configure error pages in web.xml?
+What is the role of HttpServletResponse.sendError()?
+
+Servlet Best Practices
+Is Servlet thread safe? Explain concurrency issues in Servlets.
+How do you make a Servlet thread-safe?
+Why should instance variables be avoided in Servlets?
+What is the difference between SingleThreadModel and multithreaded Servlet?

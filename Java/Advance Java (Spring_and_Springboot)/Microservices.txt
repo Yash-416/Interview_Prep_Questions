@@ -1,0 +1,41 @@
+Microservices Fundamentals
+What are microservices and how do they differ from monolithic architecture?
+What are the key characteristics of microservices architecture?
+What are the advantages and challenges of microservices?
+How do microservices improve scalability and maintainability?
+
+Service Communication and Integration
+How do microservices communicate with each other?
+What is synchronous vs asynchronous communication in microservices?
+What is REST based communication between microservices?
+What is message based communication and when is it used?
+
+Service Discovery and Configuration
+What is service discovery in microservices?
+What is the role of service registry in microservices architecture?
+What is centralized configuration and why is it needed?
+How do microservices handle environment specific configurations?
+
+API Gateway and Routing
+What is an API Gateway and why is it used in microservices?
+What problems does API Gateway solve?
+How does routing and load balancing work through API Gateway?
+What is the difference between API Gateway and load balancer?
+
+Fault Tolerance and Resilience
+What is fault tolerance in microservices?
+What is circuit breaker pattern and why is it used?
+What is retry mechanism in microservices communication?
+How do microservices handle partial failures?
+
+Data Management in Microservices
+How is database managed in microservices architecture?
+What is database per service pattern?
+What are challenges of distributed transactions in microservices?
+What is eventual consistency and why is it used in microservices?
+
+Security and Monitoring
+How is security handled across microservices?
+What is centralized authentication in microservices architecture?
+How do you monitor and log distributed microservices?
+What is distributed tracing and why is it important?

@@ -1,0 +1,51 @@
+Spring Security Fundamentals
+What is Spring Security and why is it used in web applications?
+What problems does Spring Security solve?
+What are the core modules of Spring Security?
+How does Spring Security integrate with Spring Boot?
+
+Authentication and Authorization
+What is authentication and authorization in Spring Security?
+What is the difference between authentication and authorization?
+How does Spring Security perform authentication?
+What is UserDetailsService and its role in authentication?
+What is AuthenticationManager and how does it work?
+What is PasswordEncoder and why is it important?
+
+Security Configuration
+How do you configure Spring Security in a Spring Boot application?
+What is SecurityFilterChain and how is it configured?
+What is the role of HttpSecurity in Spring Security configuration?
+How do you secure endpoints using antMatchers or requestMatchers?
+How do you disable CSRF in Spring Security and when should it be done?
+
+Filters and Security Flow
+What is the filter chain in Spring Security?
+How does Spring Security filter chain process a request?
+What is the role of OncePerRequestFilter?
+How does authentication flow work internally in Spring Security?
+
+JWT and Token Based Security
+What is JWT and why is it used in Spring Security?
+What is the structure of a JWT token?
+How do you implement JWT based authentication in Spring Boot?
+What is the difference between session based and token based authentication?
+How does Spring Security validate JWT tokens on each request?
+
+Method Level Security
+What is method level security in Spring Security?
+How do @PreAuthorize and @PostAuthorize annotations work?
+What is the difference between hasRole() and hasAuthority()?
+How do you enable global method security in Spring Boot?
+
+User Management and Roles
+How do you implement custom user details in Spring Security?
+What is the difference between in memory, JDBC, and custom user authentication?
+How are roles and authorities managed in Spring Security?
+How do you restrict access to specific endpoints based on roles?
+
+Advanced Security Concepts
+What is CSRF protection and why is it important?
+What is CORS and how is it configured in Spring Security?
+What is the difference between Basic Authentication and Form Login?
+What is OAuth2 and how does it relate to Spring Security?

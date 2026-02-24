@@ -1,0 +1,67 @@
+JDBC Fundamentals
+What is JDBC and why is it used in Java applications?
+What are the main components of JDBC architecture?
+What are the different types of JDBC drivers?
+What is the difference between Type 1, Type 2, Type 3, and Type 4 JDBC drivers?
+Which JDBC driver type is most commonly used and why?
+
+JDBC Core Interfaces and Classes
+What are the core JDBC interfaces provided by java.sql package?
+What is the role of DriverManager in JDBC?
+What is the purpose of Connection interface?
+What is Statement interface and when should it be used?
+What is PreparedStatement and how is it different from Statement?
+What is CallableStatement and when is it used?
+What is ResultSet and how do you process query results using it?
+
+Connection and Resource Management
+How do you establish a database connection using JDBC?
+What are the steps to execute a query using JDBC?
+How do you close JDBC resources properly?
+What happens if JDBC resources are not closed?
+What is try-with-resources and how does it help in JDBC?
+
+Statement vs PreparedStatement vs CallableStatement
+What is the difference between Statement and PreparedStatement?
+Why is PreparedStatement preferred over Statement?
+How does PreparedStatement help prevent SQL injection?
+What is the difference between PreparedStatement and CallableStatement?
+When should you use CallableStatement in real applications?
+
+ResultSet Handling
+What are the different types of ResultSet in JDBC?
+What is the difference between forward-only and scrollable ResultSet?
+What is the difference between read-only and updatable ResultSet?
+How do you iterate over ResultSet and retrieve column values?
+What is ResultSetMetaData and how is it used?
+
+Batch Processing and Performance
+What is batch processing in JDBC?
+How do you execute batch updates using JDBC?
+What are the advantages of batch processing?
+How does batch processing improve performance?
+
+Transactions in JDBC
+What is transaction management in JDBC?
+What is auto-commit mode in JDBC?
+How do you enable and disable auto-commit?
+How do you perform commit and rollback operations?
+What happens if an exception occurs during a transaction?
+
+Connection Pooling and Optimization
+What is connection pooling and why is it important?
+What problems occur if a new connection is created for every request?
+How does connection pooling improve performance?
+What is the role of DataSource in JDBC?
+What is the difference between DriverManager and DataSource?
+
+Error Handling and Exceptions
+What is SQLException and what information does it provide?
+How do you handle SQL exceptions in JDBC applications?
+What is the difference between SQLState and vendor-specific error codes?
+
+Advanced JDBC Concepts
+What is RowSet and how is it different from ResultSet?
+What is the difference between CachedRowSet and JdbcRowSet?
+What is database metadata and how can it be retrieved using JDBC?
+How do you retrieve table and column information dynamically using JDBC?
